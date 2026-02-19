@@ -49,11 +49,13 @@ class LeNet5(nn.Module):
                 in_features=16 * 5 * 5, 
                 out_features=120
             ), 
+            nn.ReLU(), 
 
             nn.Linear(
                 in_features=120, 
                 out_features=84
             ), 
+            nn.ReLU(), 
 
             nn.Linear(
                 in_features=84, 
