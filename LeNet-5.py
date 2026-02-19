@@ -20,8 +20,8 @@ class LeNet5(nn.Module):
                 stride=1, 
                 padding=0
             ), 
-            nn.AvgPool2d(kernel_size=2, stride=2), 
             nn.ReLU(), 
+            nn.AvgPool2d(kernel_size=2, stride=2), 
 
             # ============
             # Second Layer 
@@ -34,8 +34,8 @@ class LeNet5(nn.Module):
                 stride=1, 
                 padding=0
             ), 
-            nn.AvgPool2d(kernel_size=2, stride=2), 
-            nn.ReLU() 
+            nn.ReLU(),
+            nn.AvgPool2d(kernel_size=2, stride=2)
         )
 
         # =====================
