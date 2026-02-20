@@ -1,3 +1,5 @@
+![LeNet-5 Architecture](lenet-5.svg)
+
 # LeNet-5 architecture from scratch
 
 ## About architecture
@@ -14,5 +16,3 @@ LeNet-5 was one of the earliest pre-trained models designed for handwritten and 
 
 ### Fully Connected Layers
 - To classify the extracted features into 10 distinct classes.
-
-![LeNet-5 Architecture](lenet-5.svg)
